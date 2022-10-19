@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record model="ir.ui.view" id="view_order_form_inderit_academy">
+        <record model="ir.ui.view" id="view_order_form_inherit_academy">
             <field name="name">sale.order.form.inherit.academy</field>
-            <field name="model">sale.oder</field>
+            <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
             <!-- this is how to insert a new view to an already existing form -->
