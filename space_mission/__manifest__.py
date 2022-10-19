@@ -1,6 +1,6 @@
 {
     'name': 'Space Mission',
-    'version': '0.6',
+    'version': '0.1',
     'summary': 'Odoo Application to control its Space Mission',
     'description': """
         Space Mission Application to Manage Space Control:
@@ -24,9 +24,5 @@
     'demo': ['demo/spaceship_demo.xml',],
     
     'assets': {},
-    
-    'installable': True,
-    'application': True,
-    'auto_install': False,
     
 }
