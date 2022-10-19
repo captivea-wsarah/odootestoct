@@ -9,7 +9,6 @@
             -
         """,
     'license': 'OPL-1',
-    'author': 'fsrs-odoo',
     'website': 'www.odoo.com',
     'category': 'Tech Training',
     
