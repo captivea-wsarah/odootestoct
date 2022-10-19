@@ -17,7 +17,7 @@
             Learning about Cost Accounting and pricing and Revenue Analysis
             </field>
             <field name="level">intermediate</field>
-            <field name="base_price">10.00</field>
+            <field name="base_price">0.00</field>
             <field name="additional_fee">10.00</field>
         </record>
 
