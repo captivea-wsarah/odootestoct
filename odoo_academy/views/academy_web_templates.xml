@@ -3,7 +3,7 @@
     <data>
     <!-- same as what was set on the controller -->
         <template id="course_website">
-            <t t-call=website.layout>
+            <t t-call="website.layout">
                 <t t-set="title">Academy</t>
                 <div class="oe_structure">
                     <div class="container">
