@@ -6,7 +6,7 @@ class SaleWizard(models.TransientModel):
     _name = 'academy.sale.wizard'
     _description = 'Wizard: Quick Sale Orders for Session Students'
 
-    def _defualt_session(self):
+    def _default_session(self):
         return self.env['academy.session'].browse(self._context.get('active_id'))
 
     session_id = fields.Many2one(comodel_name='academy.session', string='Session', required=True, default=_default_session)
