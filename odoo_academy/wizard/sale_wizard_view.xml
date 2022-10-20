@@ -13,7 +13,7 @@
                     </group>
                     <footer>
                     <!-- the button name is the function name in python -->
-                        <button name="create_sale_orders" type="object" string="Create" class="oe_highlight"/>
+                        <button name="create_sale_order" type="object" string="Create" class="oe_highlight"/>
                         or
                         <button special="cancel" string="Cancel"/>
                     </footer>
